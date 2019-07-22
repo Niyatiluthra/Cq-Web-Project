@@ -1,0 +1,63 @@
+.div-min-width
+{
+    min-width: 368px;
+}
+
+#role-btn
+{
+    width:70px;
+    border: 2px solid #2D312C;
+    background-color: #2D312C;
+    color: #fff;
+}
+
+#status-btn
+{
+    width:70px;
+    border: 2px solid #2D312C;
+    background-color: #2D312C;
+    color: #fff;
+}
+
+#actionstd{
+  text-align: center;
+}
+
+#email-btn
+{
+    background-color: rgb(0, 0, 0);
+}
+
+.actionbtns {
+    margin: 5px;
+}
+
+@media (min-width:768px)
+{
+    #role-btn
+    {
+        width:14%;
+    }
+    #status-btn
+    {
+        width:10%;
+    }
+    #container-parent
+    {
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+
+}
+
+@media (max-width:768px)
+{
+    .div-min-width {
+      overflow-x: scroll;
+    }
+}
+
+.userslist {
+  background-color: #337AB6;
+  color: white;
+}

@@ -1,0 +1,74 @@
+<% include partials/commonhead.ejs %>
+<link rel="stylesheet" href="communityhome.css">
+      <style>
+        
+        .cpic {
+          background: rgb(255, 255, 255) !important;
+          height: 50px;
+          width: 50px;
+          border: 3px solid #fff;
+          box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+        .community-div {
+          border-top: 1px solid transparent;
+          border-bottom: 1px solid transparent;
+          border-color: #CCCCCC;
+          overflow : hidden;
+        }
+
+        .communitypage {
+          background-color: #337AB6;
+          color: white;
+        }
+
+        .community-short-btn {
+          float: right;
+          margin-top: 25px;
+          color: #7D7D7D;
+          font-size: 15px;
+          cursor: pointer !important;
+          float: right;
+          text-decoration: none;
+          text-transform: capitalize;
+        }
+
+        .community-header-top {
+          width: 100%;
+          background-image: linear-gradient(to bottom, #4ba2b7, #42a6be, #38aac6, #29adcd, #0fb1d5);
+          height: 180px;
+        }
+
+        .community-head-btn {
+          border: 1px solid #fff;
+          color : white;
+        }
+
+        .community-panel-main-div {
+          border: 0;
+          border-radius: 0;
+          margin-top: 0px;
+        }
+
+        .allSidesSoft {
+          box-shadow: 0 3px 10px 0 rgba(115,143,147,.3);
+        }
+
+        @media (min-width: 768px) {
+          .community-panel-main-div {
+            margin-top: 50px;
+          }
+        }
+
+      </style>
+
+</head>
+  <body>
+    <% include partials/userheader.ejs %>
+    <div id="viewscreen" >
+        <% include partials/usersidebar.ejs %>
+        <% include partials/commoncommunityhome.ejs %>
+    </div>
+  </body>
+  <script type="text/javascript" src="switchcommunityhome.js"></script>
+  <script type="text/javascript" src="usersidebar.js">  </script>
+</html>
